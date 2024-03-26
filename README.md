@@ -8,6 +8,9 @@
     - In your teminal run ```node -v``` to confirm the version you have installed
 
 3. Open your terminal and run ```npm install``` to download all of the dependencies that make live browser reloading and gulp work
-
+    - If you get vulnerability messages in your terminal run ```clear```
+    
 4. Run ```gulp watch``` to start your live server as you code.
     - Every time you save a file that is .html .css .js your site should automatically reload.
+
+* If you get vulnerability messages in your terminal run ```clear```
