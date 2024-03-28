@@ -9,6 +9,7 @@ function watch() {
         }
     });
     gulp.watch('./dist/*.css').on('change', browserSync.reload);
+    gulp.watch('./dist/*.js').on('change', browserSync.reload);
     gulp.watch('./dist/*.html').on('change', browserSync.reload);
 }
 
