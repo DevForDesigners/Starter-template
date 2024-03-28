@@ -1,15 +1,26 @@
 {
-  "name": "Starter Template",
+  "name": "starter-template",
+  "version": "1.0.0",
   "description": "Dev For Designers starter template using CSS, HTML, &JS",
-  "main": "index.html",
+  "main": "gulpfile.js",
   "scripts": {
-    "dev": "gulp watch"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DevForDesigners/starter-template.git"
+  },
+  "author": "Matt Qualley",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DevForDesigners/starter-template/issues"
+  },
+  "homepage": "https://github.com/DevForDesigners/starter-template#readme",
   "devDependencies": {
-    "browser-sync": "^2.27.7",
+    "browser-sync": "^3.0.2",
     "gulp": "^4.0.2",
-    "gulp-autoprefixer": "^8.0.0",
-    "gulp-sass": "^5.0.0",
-    "sass": "^1.43.4"
+    "gulp-autoprefixer": "^9.0.0",
+    "gulp-sass": "^5.1.0",
+    "sass": "^1.72.0"
   }
 }
